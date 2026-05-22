@@ -1,3 +1,4 @@
+
 <template>
    <!-- 设置语言为中文 -->
    <el-config-provider :locale="locale">
@@ -13,6 +14,6 @@ const locale = zhCn
 <style>
 /* 自定义顶部加载 Loading 颜色 */
 #nprogress .bar {
-   background: #409eff !important;
+   background: #409eff!important;
 }
 </style>
